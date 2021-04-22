@@ -75,18 +75,20 @@ body img:hover {
 footer {
   background-color: salmon;
   margin-bottom: 0;
-  border-radius: 2rem;
-}
-footer span {
-  color: white;
-  font-size: 1.5rem;
+  border-radius: 1rem;
   text-align: center;
 }
-footer a {
+
+span {
   color: white;
-  text-decoration: none;
+  font-size: 1.5rem;
 }
-footer a:hover {
+span a {
+  color: #574e4e;
+  text-decoration: none;
+  font-weight: bolder;
+}
+span a:hover {
   color: #d84939;
   background-color: gray;
   transition: 1s;
