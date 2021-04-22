@@ -1,0 +1,73 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    h1 {
+        font-size: 3.5rem;
+        color: white;
+        font-family: 'Orelega One', cursive;
+        text-align: center;
+        margin: 0rem 2rem 0 2rem;
+        display: flex;
+        align-items: center;
+    }
+    nav {
+        margin-top: 0rem;
+        display: flex;
+        justify-content: space-between;
+        background-color: salmon;
+        border-radius: 2rem;
+    }
+    li {
+        color:white;
+        list-style: none;
+        padding: 1rem 2rem 1rem 0rem;
+        font-size: 2rem;
+        font-family: cursive;
+    }
+}
+
+body {
+    background-color: aquamarine;
+    margin: 0rem 5rem;
+    h2 {
+        font-family: 'Orelega One', cursive;
+        font-size: 2rem;
+        color: salmon;
+        font-weight: bolder;
+        text-align: center;
+    }
+    p {
+        font-size: 1.3rem;
+        text-align: justify;
+        padding: 1rem;
+        color: rgb(90, 86, 86);
+    }
+    h3 {
+        font-size: 1.5rem;
+        text-align: center;
+        color: salmon;
+        font-weight: bolder;
+    }
+}
+
+footer {
+    background-color: salmon;
+    margin-bottom: 0;
+    span {
+        color: white;
+        font-size: 1.5rem;
+        text-align: right;
+    }
+        a {
+            color:white;
+            text-decoration: none;
+            &:hover {
+                color: rgb(216, 73, 57);
+                background-color: gray;
+                transition: 1s;
+            }
+        }
+}
