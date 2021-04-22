@@ -40,6 +40,7 @@ body h2 {
 }
 body p {
   font-size: 1.3rem;
+  font-family: "Original Surfer", cursive;
   text-align: justify;
   padding: 1rem;
   color: #5a5656;
@@ -54,6 +55,7 @@ body h3 {
 footer {
   background-color: salmon;
   margin-bottom: 0;
+  border-radius: 2rem;
 }
 footer span {
   color: white;
