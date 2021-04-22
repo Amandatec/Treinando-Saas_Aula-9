@@ -26,6 +26,17 @@ header li {
   font-size: 2rem;
   font-family: cursive;
 }
+header a {
+  text-decoration: none;
+  color: white;
+}
+header a:hover {
+  color: salmon;
+  transition: 1s;
+  background-color: gray;
+  border-radius: 1rem;
+  padding: 1rem;
+}
 
 body {
   background-color: aquamarine;
@@ -51,6 +62,15 @@ body h3 {
   color: salmon;
   font-weight: bolder;
 }
+body img {
+  width: 20rem;
+  border-radius: 2rem 2rem 2rem 2rem;
+  margin: 1rem 2rem 1rem 2rem;
+}
+body img:hover {
+  transition: 2s;
+  background-color: gray;
+}
 
 footer {
   background-color: salmon;
@@ -60,7 +80,7 @@ footer {
 footer span {
   color: white;
   font-size: 1.5rem;
-  text-align: right;
+  text-align: center;
 }
 footer a {
   color: white;
